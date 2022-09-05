@@ -1,1 +1,74 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get Car Data Script</title>
+	<meta charset="utf-8">
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="jcanvas.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script> -->
+	<script src="description.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	</style>
+
+	<section id="tabSelector">
+		<button class="" data-target="carAdPost">Anúncio</button>
+		<button class="active" data-target="soldPost">Sold Post</button>
+	</section>
+	
+	<section id="carAdPost" class="tabContent contentWrap hidden">
+		<div id="lista">
+			<select id="carros">
+				<option>Selecione um carro</option>
+			</select>
+			<section id="postImage">
+				<canvas id="myCanvas" class="postCanvas" width="1080" height="1080"></canvas>
+			</section>
+		</div>
+		<section id="postInfo">
+			<p>🏅6 meses de garantia grátis!
+				<br/>
+				🗓️1ª Parcela em 75 dias
+			</p>
+			<p id="carName">NOME DO CARRO</p>
+			<p>
+				✅ Título Limpo<br/>
+				✅ Inspecionado Mecanicamente<br/>
+				✅ Histórico de proprietário verificado</p>
+			<p>
+				Milhagem: <span id="milhagem">-</span><br/>
+				Motor: <span id="motor">-</span><br/>
+				Sistema de transmissão: <span id="sist">-</span><br/>
+				Trim: <span id="trim">-</span><br/>
+				Transmissão: <span id="transm">-</span><br/>
+				MPG: City/Hwy: <span id="mpg"> - / -</span><br/>
+			</p><br/>
+	
+			<p>💰<span id="price">$-</span></p><br/>
+	
+			<p>
+				📍 4702 West Colonial Drive<br/>
+				📞 (407) 985-2121<br/>
+				🌐 https://www.stitchcarautos.com<br/>
+			</p>
+	
+			<br/>
+	
+			<p>#orlando #orlandocars #dealership #cars #usedcars #cardealership #carsales #carsforsale #cardealer #autosales #car #carsofinstagram #usedcarsforsale #automotive #sales #newcar #carshopping #auto #bmw #forsale #toyota #dealer #ford #finance #suv #carlifestyle #honda #usedcar #carsalesman #deals</p>
+		</section>
+	</section>
+	<section id="soldPost" class="tabContent contentWrap">
+		<section id="soldPostImage">
+			<canvas id="soldPostCanvas" class="postCanvas" width="1080" height="1080"></canvas>
+		</section>
+		<section id="soldImageUpload">
+			<input type="file">
+		</section>
+		<button id="removerImagem">Remover imagem</button>
+	</section>
+
+</body>
+</html>

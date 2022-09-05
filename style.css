@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+.tabContent{
+	display: grid;
+	grid-template-columns: 550px 1fr;
+	padding: 0 15%;
+	align-items: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-color: #0e0e0e;
+}
+
+#carAdPost :first-child{
+	justify-self: right;
+}
+
+section{
+	display: block;
+	margin: 10px 20px;
+}
+
+.postCanvas{
+	/* border: 1px solid black; */
+	width: 500px;
+	border-radius: 8px;
+	box-shadow: 0px 10px 20px #000;
+}
+
+#carros{
+	width: 500px;
+	height: 40px;
+	margin: 20px;
+	padding: 0 15px;
+	background-color: #0e0e0e;
+	border: 2px solid #eea52f;
+	border-radius: 8px;
+}
+
+#postInfo{
+	display: block;
+	max-width: 500px;
+}
+
+#tabSelector{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	height: 50px;
+	margin-top: 20px;
+	padding: 0 15%;
+}
+
+#tabSelector button{
+	background-color: #0e0e0e;
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
+	color: #5e5e5e;
+	font-size: 24px;
+	border: none;
+}
+
+#tabSelector button.active{
+	color: #eea52f;
+	font-size: 24px;
+	border-bottom: 3px solid #eea52f;
+}
+
+#tabSelector button:hover{
+	cursor: pointer;
+}
+
+.hidden{
+	display: none;
+}
+
+#soldPost{
+	position: relative;
+}
+
+#soldPostImage{
+	grid-column: span 2;
+	justify-self: center;
+}
+
+#soldImageUpload{
+	grid-column: span 2;
+	justify-self: center;
+	position: absolute;
+	top:-5px;
+}
+
+#soldImageUpload input{
+	display: block;
+	width: 510px;
+	height: 510px;
+	border: dashed 3px #5e5e5e;
+	border-radius: 8px;
+	text-indent: -99999px;
+}
+
+#removerImagem{
+	grid-column: span 2;
+	width: 500px;
+	justify-self: center;
+	margin-top: 20px;
+	padding: 15px;
+	background-color: #0e0e0e;
+	border: 2px solid #eea52f;
+	border-radius: 8px;
+	cursor: pointer;
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
+	font-size: 24px;
+	color: #eea52f;
+}
