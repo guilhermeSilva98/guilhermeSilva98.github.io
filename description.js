@@ -83,15 +83,16 @@ $( document ).ready(function() {
 
 $('#soldImageUpload input').on('change', function(e){
 	$('#soldImageUpload').addClass('hidden');
+	$('#baixarImagem').removeClass('hidden');
 	var soldImage = new Image();
 	soldImage.src = URL.createObjectURL(e.target.files[0]);
-	console.log(soldImage);
+	var scale = 0.8
 	$('#soldPostCanvas').addLayer({
 		type: 'image',
 		name: 'soldImage',
 	  	source: soldImage,  
 	  	x: (1080/2), y: 1080/2,
-		scale:0.8,
+		scale:scale,
 		draggable: true
 	}).addLayer({
 		type: 'image',
@@ -102,10 +103,39 @@ $('#soldImageUpload input').on('change', function(e){
 		source: 'soldOverlayBottom.png',
 		x: (1080/2), y: 915
 	}).drawLayers();
+
+	$('.resizeButton').on('click',function(e){
+		e.preventDefault();
+		if($(this).data('resize') == 'Up'){
+			$('#soldPostCanvas').setLayer('soldImage',{
+				scale:scale+0.2
+			}).drawLayers();
+			scale=scale+0.2
+		}else if($(this).data('resize') == 'Down'){
+			$('#soldPostCanvas').setLayer('soldImage',{
+				scale:scale-0.2
+			}).drawLayers();
+			scale=scale-0.2
+		}
+	})
+
+	$('#baixarImagem').on('click', function(e){
+		$(this).attr('href', $('#soldPostCanvas').getCanvasImage('png'));
+	})
+
+	// soldImage.onload = function(){
+	// 	// var image = $('#soldPostCanvas').getCanvasImage('png');
+	// 	// $('#baixarImagem').attr('download', 'sold.png');
+	// 	// $('#baixarImagem').attr('href', image);
+		
+		
+	// }
+
 });
 
 
 $('#removerImagem').on('click', function(){
+	$('#baixarImagem').addClass('hidden');
 	$('#soldPostCanvas').removeLayer('soldImage').drawLayers();
 	$('#soldPostCanvas').addLayer({
 		type: 'image',
@@ -118,6 +148,10 @@ $('#removerImagem').on('click', function(){
 	}).drawLayers();
 	$('#soldImageUpload').removeClass('hidden');
 })
+
+
+
+
 
 
 

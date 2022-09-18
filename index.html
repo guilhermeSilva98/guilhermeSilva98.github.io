@@ -3,6 +3,7 @@
 <head>
 	<title>Get Car Data Script</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="jquery-3.6.0.min.js"></script>
 	<script src="jcanvas.min.js"></script>
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script> -->
@@ -63,11 +64,16 @@
 	<section id="soldPost" class="tabContent contentWrap">
 		<section id="soldPostImage">
 			<canvas id="soldPostCanvas" class="postCanvas" width="1080" height="1080"></canvas>
+			<section id="resize">
+				<a href="#" class="resizeButton" id="resizeUp" data-resize="Up">+</a>
+				<a href="#" class="resizeButton" id="resizeDown" data-resize="Down">-</a>
+			</section>
 		</section>
 		<section id="soldImageUpload">
 			<input type="file">
 		</section>
-		<button id="removerImagem">Remover imagem</button>
+		<a class="soldButton" id="removerImagem" href="#">Remover imagem</a>
+		<a class="soldButton hidden" id="baixarImagem" href="#" download="sold.png">Baixar Imagem</a>
 	</section>
 
 </body>
