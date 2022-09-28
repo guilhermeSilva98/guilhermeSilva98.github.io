@@ -12,25 +12,14 @@
     },
     {
      "carName": "2020 RAM 1500 CREW CAB",
-     "carPrice": "$49,990",
-     "Milhagem": "59,066",
+     "carPrice": "$46,990",
+     "Milhagem": "54,959",
      "Motor": "V8, HEMI, ETORQUE, 5.7 LITER",
      "Trim": "REBEL PICKUP 4D 5 1\/2 FT",
      "Transmissao": "AUTOMATIC, 8-SPD",
-     "MPG": "17 \/ 22",
-     "SistemaTransmissao": "4WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ram\/1500-crew-cab\/279494\/"
-    },
-    {
-     "carName": "2018 FORD F150 SUPERCREW CAB",
-     "carPrice": "$39,990",
-     "Milhagem": "137,069",
-     "Motor": "V8, FLEX FUEL, 5.0 LITER",
-     "Trim": "PLATINUM PICKUP 4D 5 1\/2 FT",
-     "Transmissao": "AUTO, 10-SPD SPT MODE",
-     "MPG": "15 \/ 21",
-     "SistemaTransmissao": "4WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/f150-supercrew-cab\/d01358\/"
+     "MPG": "17 \/ 23",
+     "SistemaTransmissao": "2WD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ram\/1500-crew-cab\/260791\/"
     },
     {
      "carName": "2020 CHEVROLET SILVERADO 1500 DOUBLE CAB",
@@ -99,17 +88,6 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/f150-supercrew-cab\/10512\/"
     },
     {
-     "carName": "2020 CHRYSLER VOYAGER",
-     "carPrice": "$32,990",
-     "Milhagem": "39,305",
-     "Motor": "V6, 3.6 LITER",
-     "Trim": "LXI MINIVAN 4D",
-     "Transmissao": "AUTOMATIC, 9-SPD",
-     "MPG": "19 \/ 28",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chrysler\/voyager\/198634\/"
-    },
-    {
      "carName": "2017 LAND ROVER RANGE ROVER EVOQUE",
      "carPrice": "$32,990",
      "Milhagem": "67,454",
@@ -119,6 +97,39 @@
      "MPG": "21 \/ 29",
      "SistemaTransmissao": "4WD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/land-rover\/range-rover-evoque\/10541\/"
+    },
+    {
+     "carName": "2020 CHRYSLER VOYAGER",
+     "carPrice": "$31,990",
+     "Milhagem": "39,305",
+     "Motor": "V6, 3.6 LITER",
+     "Trim": "LXI MINIVAN 4D",
+     "Transmissao": "AUTOMATIC, 9-SPD",
+     "MPG": "19 \/ 28",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chrysler\/voyager\/198634\/"
+    },
+    {
+     "carName": "2020 CHRYSLER PACIFICA",
+     "carPrice": "$31,990",
+     "Milhagem": "71,556",
+     "Motor": "V6, 3.6 LITER",
+     "Trim": "LIMITED MINIVAN 4D",
+     "Transmissao": "AUTOMATIC, 9-SPD",
+     "MPG": "19 \/ 28",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chrysler\/pacifica\/163016\/"
+    },
+    {
+     "carName": "2020 CHRYSLER PACIFICA",
+     "carPrice": "$30,990",
+     "Milhagem": "70,514",
+     "Motor": "V6, 3.6 LITER",
+     "Trim": "LIMITED MINIVAN 4D",
+     "Transmissao": "AUTOMATIC, 9-SPD",
+     "MPG": "19 \/ 28",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chrysler\/pacifica\/156244\/"
     },
     {
      "carName": "2018 CHEVROLET SILVERADO 1500 DOUBLE CAB",
@@ -141,6 +152,17 @@
      "MPG": "- \/ -",
      "SistemaTransmissao": "RWD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/express-2500-cargo\/10589\/"
+    },
+    {
+     "carName": "2019 TOYOTA HIGHLANDER",
+     "carPrice": "$29,990",
+     "Milhagem": "105,891",
+     "Motor": "V6, 3.5 LITER",
+     "Trim": "LE PLUS SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 8-SPD",
+     "MPG": "22 \/ 26",
+     "SistemaTransmissao": "AWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/toyota\/highlander\/981501\/"
     },
     {
      "carName": "2018 LAND ROVER DISCOVERY SPORT",
@@ -176,15 +198,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/maserati\/ghibli\/087768\/"
     },
     {
-     "carName": "2017 FORD F150 SUPERCREW CAB",
-     "carPrice": "$28,990",
-     "Milhagem": "135,169",
-     "Motor": "V6, ECOBOOST, TT, 2.7L",
-     "Trim": "XLT PICKUP 4D 5 1\/2 FT",
-     "Transmissao": "AUTO, 10-SPD SPT MODE",
-     "MPG": "17 \/ 23",
-     "SistemaTransmissao": "4WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/f150-supercrew-cab\/c45550\/"
+     "carName": "2019 GMC ACADIA",
+     "carPrice": "$27,990",
+     "Milhagem": "82,006",
+     "Motor": "4-CYL, 2.5 LITER",
+     "Trim": "SLE-1 SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 6-SPD",
+     "MPG": "21 \/ 26",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/gmc\/acadia\/156457\/"
     },
     {
      "carName": "2017 RAM 1500 CREW CAB",
@@ -196,17 +218,6 @@
      "MPG": "15 \/ 22",
      "SistemaTransmissao": "2WD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ram\/1500-crew-cab\/10507\/"
-    },
-    {
-     "carName": "2019 GMC ACADIA",
-     "carPrice": "$27,990",
-     "Milhagem": "82,006",
-     "Motor": "4-CYL, 2.5 LITER",
-     "Trim": "SLE-1 SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC, 6-SPD",
-     "MPG": "21 \/ 26",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/gmc\/acadia\/156457\/"
     },
     {
      "carName": "2016 MERCEDES-BENZ METRIS PASSENGER",
@@ -231,15 +242,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/silverado-1500-limited-double-cab\/193335\/"
     },
     {
-     "carName": "2016 FORD F250 SUPER DUTY CREW CAB",
-     "carPrice": "$27,990",
-     "Milhagem": "123,312",
-     "Motor": "V8, FLEX FUEL, 6.2 LITER",
-     "Trim": "XL PICKUP 4D 8 FT",
-     "Transmissao": "AUTO, HD 6-SPD SELSHFT",
-     "MPG": "- \/ -",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/f250-super-duty-crew-cab\/a29873\/"
+     "carName": "2019 HYUNDAI SANTA FE",
+     "carPrice": "$26,990",
+     "Milhagem": "75,448",
+     "Motor": "4-CYL, GDI, 2.4 LITER",
+     "Trim": "2.4 SE SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 8-SPD W\/SHIFTRONIC",
+     "MPG": "21 \/ 27",
+     "SistemaTransmissao": "AWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/santa-fe\/020871\/"
     },
     {
      "carName": "2016 LAND ROVER RANGE ROVER EVOQUE",
@@ -253,15 +264,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/land-rover\/range-rover-evoque\/10597\/"
     },
     {
-     "carName": "2019 HYUNDAI SANTA FE",
+     "carName": "2018 HONDA PILOT",
      "carPrice": "$26,990",
-     "Milhagem": "75,448",
-     "Motor": "4-CYL, GDI, 2.4 LITER",
-     "Trim": "2.4 SE SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC, 8-SPD W\/SHIFTRONIC",
-     "MPG": "21 \/ 27",
-     "SistemaTransmissao": "AWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/santa-fe\/020871\/"
+     "Milhagem": "109,235",
+     "Motor": "V6, I-VTEC, 3.5 LITER",
+     "Trim": "EX SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 6-SPD",
+     "MPG": "19 \/ 27",
+     "SistemaTransmissao": "2WD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/honda\/pilot\/018272\/"
     },
     {
      "carName": "2017 CHEVROLET SILVERADO 1500 DOUBLE CAB",
@@ -275,15 +286,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/silverado-1500-double-cab\/10588\/"
     },
     {
-     "carName": "2018 HONDA PILOT",
+     "carName": "2019 CHEVROLET TRAVERSE",
      "carPrice": "$26,990",
-     "Milhagem": "109,235",
-     "Motor": "V6, I-VTEC, 3.5 LITER",
-     "Trim": "EX SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC, 6-SPD",
-     "MPG": "19 \/ 27",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/honda\/pilot\/018272\/"
+     "Milhagem": "94,428",
+     "Motor": "V6, 3.6 LITER",
+     "Trim": "LS SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 9-SPD",
+     "MPG": "18 \/ 27",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/traverse\/280498\/"
     },
     {
      "carName": "2014 LAND ROVER RANGE ROVER EVOQUE",
@@ -330,17 +341,6 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ram\/1500-quad-cab\/340141\/"
     },
     {
-     "carName": "2019 GMC TERRAIN",
-     "carPrice": "$25,990",
-     "Milhagem": "100,561",
-     "Motor": "4-CYL, TURBO DIESEL, 1.6 LITER",
-     "Trim": "SLT DIESEL SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC, 6-SPD",
-     "MPG": "28 \/ 38",
-     "SistemaTransmissao": "AWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/gmc\/terrain\/243555\/"
-    },
-    {
      "carName": "2019 HYUNDAI SANTA FE",
      "carPrice": "$25,990",
      "Milhagem": "84,354",
@@ -352,6 +352,28 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/santa-fe\/097687\/"
     },
     {
+     "carName": "2019 GMC TERRAIN",
+     "carPrice": "$25,990",
+     "Milhagem": "100,561",
+     "Motor": "4-CYL, TURBO DIESEL, 1.6 LITER",
+     "Trim": "SLT DIESEL SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 6-SPD",
+     "MPG": "28 \/ 38",
+     "SistemaTransmissao": "AWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/gmc\/terrain\/243555\/"
+    },
+    {
+     "carName": "2018 CHEVROLET TRAVERSE",
+     "carPrice": "$24,990",
+     "Milhagem": "105,737",
+     "Motor": "V6, 3.6 LITER",
+     "Trim": "LS SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 9-SPD",
+     "MPG": "18 \/ 27",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/traverse\/137295\/"
+    },
+    {
      "carName": "2018 CHRYSLER PACIFICA",
      "carPrice": "$23,990",
      "Milhagem": "108,552",
@@ -361,17 +383,6 @@
      "MPG": "18 \/ 28",
      "SistemaTransmissao": "FWD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chrysler\/pacifica\/310547\/"
-    },
-    {
-     "carName": "2014 FORD F250 SUPER DUTY CREW CAB",
-     "carPrice": "$22,990",
-     "Milhagem": "107,088",
-     "Motor": "V8, FLEX FUEL, 6.2 LITER",
-     "Trim": "XL PICKUP 4D 8 FT",
-     "Transmissao": "AUTO, HD 6-SPD SELSHFT",
-     "MPG": "- \/ -",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/f250-super-duty-crew-cab\/a22507\/"
     },
     {
      "carName": "2016 FORD MUSTANG",
@@ -405,28 +416,6 @@
      "MPG": "20 \/ 29",
      "SistemaTransmissao": "FWD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/edge\/10579\/"
-    },
-    {
-     "carName": "2018 GMC TERRAIN",
-     "carPrice": "$21,990",
-     "Milhagem": "85,448",
-     "Motor": "4-CYL, 1.5 LITER",
-     "Trim": "SLE SPORT UTILITY 4D",
-     "Transmissao": "AUTO, 9-SPD W\/OD",
-     "MPG": "26 \/ 30",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/gmc\/terrain\/286101\/"
-    },
-    {
-     "carName": "2017 CHRYSLER PACIFICA",
-     "carPrice": "$19,990",
-     "Milhagem": "120,581",
-     "Motor": "V6, 3.6 LITER",
-     "Trim": "TOURING-L MINIVAN 4D",
-     "Transmissao": "AUTOMATIC, 9-SPD",
-     "MPG": "18 \/ 28",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chrysler\/pacifica\/10429\/"
     },
     {
      "carName": "2014 MERCEDES-BENZ CLA-CLASS",
@@ -484,17 +473,6 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/gmc\/acadia\/207900\/"
     },
     {
-     "carName": "2017 DODGE GRAND CARAVAN PASSENGER",
-     "carPrice": "$17,990",
-     "Milhagem": "106,620",
-     "Motor": "V6, FLEX FUEL, 3.6 LITER",
-     "Trim": "GT MINIVAN 4D",
-     "Transmissao": "AUTOMATIC, 6-SPD",
-     "MPG": "17 \/ 25",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/dodge\/grand-caravan-passenger\/864697\/"
-    },
-    {
      "carName": "2018 CHEVROLET TRAX",
      "carPrice": "$17,990",
      "Milhagem": "81,066",
@@ -504,6 +482,17 @@
      "MPG": "25 \/ 33",
      "SistemaTransmissao": "FWD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/trax\/717448\/"
+    },
+    {
+     "carName": "2017 DODGE GRAND CARAVAN PASSENGER",
+     "carPrice": "$17,990",
+     "Milhagem": "106,620",
+     "Motor": "V6, FLEX FUEL, 3.6 LITER",
+     "Trim": "GT MINIVAN 4D",
+     "Transmissao": "AUTOMATIC, 6-SPD",
+     "MPG": "17 \/ 25",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/dodge\/grand-caravan-passenger\/864697\/"
     },
     {
      "carName": "2014 DODGE CHALLENGER",
@@ -539,15 +528,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/jeep\/wrangler\/10565\/"
     },
     {
-     "carName": "2016 CHEVROLET TRAVERSE",
+     "carName": "2018 NISSAN ALTIMA",
      "carPrice": "$16,990",
-     "Milhagem": "117,883",
-     "Motor": "V6, 3.6 LITER",
-     "Trim": "LT SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC, 6-SPD",
-     "MPG": "15 \/ 22",
+     "Milhagem": "102,338",
+     "Motor": "4-CYL, 2.5 LITER",
+     "Trim": "2.5 SV SEDAN 4D",
+     "Transmissao": "AUTOMATIC, XTRONIC CVT",
+     "MPG": "27 \/ 38",
      "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/traverse\/112394\/"
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/nissan\/altima\/159993\/"
     },
     {
      "carName": "2017 MITSUBISHI OUTLANDER",
@@ -561,15 +550,26 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/mitsubishi\/outlander\/029575\/"
     },
     {
-     "carName": "2016 JEEP GRAND CHEROKEE",
+     "carName": "2016 CHEVROLET TRAVERSE",
      "carPrice": "$16,990",
-     "Milhagem": "135,250",
-     "Motor": "V6, VVT, 3.6 LITER",
-     "Trim": "LAREDO SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC, 8-SPD",
-     "MPG": "19 \/ 26",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/jeep\/grand-cherokee\/463989\/"
+     "Milhagem": "117,883",
+     "Motor": "V6, 3.6 LITER",
+     "Trim": "LT SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 6-SPD",
+     "MPG": "15 \/ 22",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/traverse\/112394\/"
+    },
+    {
+     "carName": "2019 HYUNDAI ELANTRA",
+     "carPrice": "$16,990",
+     "Milhagem": "97,069",
+     "Motor": "4-CYL, 2.0 LITER",
+     "Trim": "SE SEDAN 4D",
+     "Transmissao": "AUTOMATIC, 6-SPD W\/SHIFTRONIC",
+     "MPG": "29 \/ 38",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/elantra\/434348\/"
     },
     {
      "carName": "2017 FORD FUSION",
@@ -594,15 +594,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/volkswagen\/tiguan\/514612\/"
     },
     {
-     "carName": "2017 CHEVROLET IMPALA",
+     "carName": "2018 TOYOTA COROLLA",
      "carPrice": "$15,990",
-     "Milhagem": "117,478",
-     "Motor": "V6, 3.6 LITER",
-     "Trim": "LT SEDAN 4D",
-     "Transmissao": "AUTO, 6-SPD OVERDRIVE",
-     "MPG": "18 \/ 28",
+     "Milhagem": "110,376",
+     "Motor": "4-CYL, 1.8 LITER",
+     "Trim": "LE SEDAN 4D",
+     "Transmissao": "AUTOMATIC, CVTI-S",
+     "MPG": "28 \/ 36",
      "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/chevrolet\/impala\/10491\/"
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/toyota\/corolla\/10449\/"
     },
     {
      "carName": "2017 JEEP PATRIOT",
@@ -616,6 +616,17 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/jeep\/patriot\/10673\/"
     },
     {
+     "carName": "2018 HYUNDAI ELANTRA",
+     "carPrice": "$15,990",
+     "Milhagem": "94,417",
+     "Motor": "4-CYL, 2.0 LITER",
+     "Trim": "SE SEDAN 4D",
+     "Transmissao": "AUTO, 6-SPD SHIFTRONIC",
+     "MPG": "29 \/ 38",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/elantra\/354323\/"
+    },
+    {
      "carName": "2017 DODGE JOURNEY",
      "carPrice": "$14,990",
      "Milhagem": "126,378",
@@ -625,28 +636,6 @@
      "MPG": "17 \/ 25",
      "SistemaTransmissao": "FWD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/dodge\/journey\/10581\/"
-    },
-    {
-     "carName": "2015 VOLKSWAGEN CC",
-     "carPrice": "$14,990",
-     "Milhagem": "108,123",
-     "Motor": "4-CYL, PZEV, 2.0T",
-     "Trim": "2.0T EXECUTIVE SEDAN 4D",
-     "Transmissao": "AUTO 6-SPD DSG TPTRNC SPT",
-     "MPG": "22 \/ 31",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/volkswagen\/cc\/10580\/"
-    },
-    {
-     "carName": "2015 JEEP CHEROKEE",
-     "carPrice": "$14,990",
-     "Milhagem": "102,363",
-     "Motor": "4-CYL, PZEV, 2.4 LITER",
-     "Trim": "SPORT SUV 4D",
-     "Transmissao": "AUTOMATIC, 9-SPD",
-     "MPG": "22 \/ 31",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/jeep\/cherokee\/671180\/"
     },
     {
      "carName": "2016 FIAT 500X",
@@ -682,15 +671,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/elantra\/062463\/"
     },
     {
-     "carName": "2014 MITSUBISHI OUTLANDER",
+     "carName": "2015 FORD FOCUS",
      "carPrice": "$13,990",
-     "Milhagem": "75,056",
-     "Motor": "4-CYL, 2.4 LITER",
-     "Trim": "ES SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC, CVT",
-     "MPG": "25 \/ 31",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/mitsubishi\/outlander\/010262\/"
+     "Milhagem": "95,745",
+     "Motor": "4-CYL, FLEX FUEL, 2.0L",
+     "Trim": "SE SEDAN 4D",
+     "Transmissao": "AUTO, 6-SPD PWR\/SELSHIFT",
+     "MPG": "26 \/ 38",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/focus\/10604\/"
     },
     {
      "carName": "2018 FORD FIESTA",
@@ -704,15 +693,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/fiesta\/111616\/"
     },
     {
-     "carName": "2015 FORD FOCUS",
-     "carPrice": "$13,990",
-     "Milhagem": "95,745",
-     "Motor": "4-CYL, FLEX FUEL, 2.0L",
-     "Trim": "SE SEDAN 4D",
-     "Transmissao": "AUTO, 6-SPD PWR\/SELSHIFT",
-     "MPG": "26 \/ 38",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/focus\/10604\/"
+     "carName": "2016 JEEP RENEGADE",
+     "carPrice": "$12,990",
+     "Milhagem": "129,292",
+     "Motor": "4-CYL, MULTIAIR, 2.4L",
+     "Trim": "LATITUDE SPORT UTILITY 4D",
+     "Transmissao": "AUTOMATIC, 9-SPD",
+     "MPG": "24 \/ 31",
+     "SistemaTransmissao": "2WD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/jeep\/renegade\/e35286\/"
     },
     {
      "carName": "2016 JEEP PATRIOT",
@@ -724,17 +713,6 @@
      "MPG": "22 \/ 27",
      "SistemaTransmissao": "FWD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/jeep\/patriot\/813667\/"
-    },
-    {
-     "carName": "2014 JEEP CHEROKEE",
-     "carPrice": "$12,500",
-     "Milhagem": "133,943",
-     "Motor": "4-CYL, 2.4 LITER",
-     "Trim": "SPORT SUV 4D",
-     "Transmissao": "AUTOMATIC, 9-SPD",
-     "MPG": "22 \/ 31",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/jeep\/cherokee\/104515\/"
     },
     {
      "carName": "2015 FORD FOCUS",
@@ -770,15 +748,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/focus\/329349\/"
     },
     {
-     "carName": "2013 HYUNDAI SONATA",
+     "carName": "2010 TOYOTA PRIUS",
      "carPrice": "$10,990",
-     "Milhagem": "145,500",
-     "Motor": "4-CYL, PZEV, 2.4 LITER",
-     "Trim": "LIMITED SEDAN 4D",
-     "Transmissao": "AUTO, 6-SPD WSHIFTRONIC &amp; ACTIVE ECO SYSTEM",
-     "MPG": "24 \/ 35",
+     "Milhagem": "125,321",
+     "Motor": "4-CYL, HYBRID, 1.8 LITER",
+     "Trim": "II HATCHBACK 4D",
+     "Transmissao": "AUTOMATIC, CVT",
+     "MPG": "51 \/ 48",
      "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/sonata\/694179\/"
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/toyota\/prius\/067624\/"
     },
     {
      "carName": "2017 FORD FIESTA",
@@ -792,17 +770,6 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/ford\/fiesta\/135668\/"
     },
     {
-     "carName": "2010 TOYOTA PRIUS",
-     "carPrice": "$10,990",
-     "Milhagem": "125,321",
-     "Motor": "4-CYL, HYBRID, 1.8 LITER",
-     "Trim": "II HATCHBACK 4D",
-     "Transmissao": "AUTOMATIC, CVT",
-     "MPG": "51 \/ 48",
-     "SistemaTransmissao": "FWD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/toyota\/prius\/067624\/"
-    },
-    {
      "carName": "2010 MERCEDES-BENZ C-CLASS",
      "carPrice": "$9,900",
      "Milhagem": "153,230",
@@ -814,15 +781,15 @@
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/mercedes-benz\/c-class\/10535\/"
     },
     {
-     "carName": "2005 KIA SORENTO",
-     "carPrice": "$4,500",
-     "Milhagem": "205,322",
-     "Motor": "V6, 3.5 LITER",
-     "Trim": "EX SPORT UTILITY 4D",
-     "Transmissao": "AUTOMATIC",
-     "MPG": "14 \/ 20",
-     "SistemaTransmissao": "2WD",
-     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/kia\/sorento\/461414\/"
+     "carName": "2007 HYUNDAI AZERA",
+     "carPrice": "$6,990",
+     "Milhagem": "157,568",
+     "Motor": "V6, 3.8 LITER",
+     "Trim": "LIMITED SEDAN 4D",
+     "Transmissao": "AUTO, 5-SPD OD &amp; SHFTRNC",
+     "MPG": "17 \/ 26",
+     "SistemaTransmissao": "FWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/hyundai\/azera\/174833\/"
     },
     {
      "carName": "2002 MAZDA TRIBUTE",
@@ -834,5 +801,16 @@
      "MPG": "17 \/ 23",
      "SistemaTransmissao": "2WD",
      "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/mazda\/tribute\/m66003\/"
+    },
+    {
+     "carName": "2019 ALFA ROMEO STELVIO",
+     "carPrice": "Call For Price",
+     "Milhagem": "90,276",
+     "Motor": "4-CYL, TURBO, 2.0 LITER",
+     "Trim": "TI SPORT SUV 4D",
+     "Transmissao": "AUTOMATIC, 8-SPD",
+     "MPG": "22 \/ 28",
+     "SistemaTransmissao": "AWD",
+     "carURL": "https:\/\/www.stitchcarautos.com\/inventory\/alfa-romeo\/stelvio\/c31191\/"
     }
    ]
