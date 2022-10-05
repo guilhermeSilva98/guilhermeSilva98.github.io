@@ -9,7 +9,7 @@
 
 .tabContent{
 	display: grid;
-	grid-template-columns: 550px 1fr;
+	grid-template-columns: 1fr 1fr;
 	padding: 0 15%;
 	align-items: center;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -24,8 +24,10 @@ body{
 }
 
 section{
-	display: block;
-	margin: 10px 20px;
+	display: grid;
+	justify-items: center;
+	padding-top: 60px;
+	height: 100vh;
 }
 
 .postCanvas{
@@ -59,7 +61,7 @@ section{
 
 #tabSelector{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: center;
 	height: 50px;
 	margin-top: 20px;
@@ -109,6 +111,19 @@ section{
 	display: block;
 	width: 510px;
 	height: 510px;
+	border: dashed 3px #5e5e5e;
+	border-radius: 8px;
+	text-indent: -99999px;
+}
+
+#storyImageUpload{
+	position: absolute;
+}
+
+#storyImageUpload input{
+	display: block;
+	width: 350px;
+	height: 620px;
 	border: dashed 3px #5e5e5e;
 	border-radius: 8px;
 	text-indent: -99999px;
