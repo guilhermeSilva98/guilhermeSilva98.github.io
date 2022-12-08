@@ -5,134 +5,68 @@
 	padding: 0;
 	box-sizing: border-box;
 	color: #fff;
-}
-
-.tabContent{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding: 0 15%;
-	align-items: center;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-body{
-	background-color: #0e0e0e;
-}
-
-#carAdPost :first-child{
-	justify-self: right;
-}
-
-section{
-	display: grid;
-	justify-items: center;
-	padding-top: 60px;
-	height: 100vh;
-}
-
-.postCanvas{
-	/* border: 1px solid black; */
-	width: 500px;
-	border-radius: 8px;
-	box-shadow: 0px 10px 20px #000;
-}
-
-.storyCanvas{
-	/* border: 1px solid black; */
-	width: 350px;
-	border-radius: 8px;
-	box-shadow: 0px 10px 20px #000;
-}
-
-#carros{
-	width: 500px;
-	height: 40px;
-	margin: 20px;
-	padding: 0 15px;
-	background-color: #0e0e0e;
-	border: 2px solid #eea52f;
-	border-radius: 8px;
-}
-
-#postInfo{
-	display: block;
-	max-width: 500px;
-}
-
-#tabSelector{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	justify-content: center;
-	height: 50px;
-	margin-top: 20px;
-	padding: 0 15%;
-}
-
-#tabSelector button{
-	background-color: #0e0e0e;
 	font-family: 'Source Sans Pro';
-	font-weight: 700;
-	color: #5e5e5e;
-	font-size: 24px;
-	border: none;
-}
-
-#tabSelector button.active{
-	color: #eea52f;
-	font-size: 24px;
-	border-bottom: 3px solid #eea52f;
-}
-
-#tabSelector button:hover{
-	cursor: pointer;
 }
 
 .hidden{
 	display: none;
 }
 
-#soldPost{
-	position: relative;
+body{
+	background: #0e0e0e;
 }
 
-#soldPostImage{
-	grid-column: span 2;
-	justify-self: center;
+#adStoryCanvas{
+	background-color: #000;
+	max-height: 80vh;
+	border-radius: 16px;
 }
 
-#soldImageUpload{
-	grid-column: span 2;
-	justify-self: center;
-	position: absolute;
-	top:-5px;
+#adStory{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
-#soldImageUpload input{
+.wrap{
+	display: flex;
+	padding: 30px;
+	flex-direction: column;
+}
+.controlsWrap{
+	width: 400px;
+}
+
+input[type='text']{
 	display: block;
-	width: 510px;
-	height: 510px;
-	border: dashed 3px #5e5e5e;
+	height: 40px;
 	border-radius: 8px;
-	text-indent: -99999px;
+	border: 1px solid #2e2e2e;
+	background-color: #0e0e0e;
+	width: 100%;
+	margin: 8px 0 30px 0;
+	padding: 8px;
 }
-
-#storyImageUpload{
-	position: absolute;
-}
-
-#storyImageUpload input{
+input[type='file']{
 	display: block;
-	width: 350px;
-	height: 620px;
-	border: dashed 3px #5e5e5e;
+	height: 80px;
 	border-radius: 8px;
-	text-indent: -99999px;
+	border: 1px solid #2e2e2e;
+	background-color: #0e0e0e;
+	width: 100%;
+	margin: 8px 0 30px 0;
+	padding: 8px;
+	/* text-indent: -9999999px; */
+}
+label{
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
 }
 
-
-.soldButton{
-	width: 500px;
-	margin-top: 20px;
+.btn{
+	width: 100%;
+	margin-bottom: 20px;
 	padding: 15px;
 	background-color: #0e0e0e;
 	border: 2px solid #eea52f;
@@ -140,31 +74,18 @@ section{
 	cursor: pointer;
 	font-family: 'Source Sans Pro';
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 16px;
 	color: #eea52f;
 	text-align: center;
 	text-decoration: none;
 }
-#removerImagem, #baixarImagem{
-	grid-column: span 2;
-	justify-self: center;
-}
 
-#soldPostImage{
-	position: relative;
-}
 
-.resize{
-	position: absolute;
-	top: 0;
-	right: -15%;
-}
-
-.resize .resizeButton{
-	display: block;
+.adjustBtn{
+	display: inline-block;
 	width: 40px;
 	height: 40px;
-	margin-bottom: 10px;
+	margin: 10px 5px;
 	background-color: #0e0e0e;
 	border: 2px solid #eea52f;
 	border-radius: 8px;
@@ -176,4 +97,23 @@ section{
 	text-align: center;
 	text-decoration: none;
 }
+
+.selo{
+	position: absolute;
+	opacity: 0;
+}
+#seloWrap label:hover{
+	cursor: pointer;
+}
+#seloWrap label img{
+	display: inline-block;
+	width: 18%;
+	aspect-ratio: 1 / 1;
+	object-fit: contain;
+	margin: 10px;	
+}
+.selo:checked + label img{
+	filter: drop-shadow(0px 0px 10px #eea52f6c);
+}
+
 
