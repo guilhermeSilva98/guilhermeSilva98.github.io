@@ -1,6 +1,23 @@
 $( document ).ready(function() {
 
 	var baseText
+
+	$('#fld-texto').on('change', function(e){
+		
+		baseText = $(this).val().split(/(?:\r?\n)+/);
+
+		var infos = baseText[2].split('$');
+		infos.forEach(function(item){console.log(item)})
+
+		entrada = parseInt(infos[1]);
+		parcela = parseInt(infos[2]);
+
+		anoCarro = baseText[0].slice(0,4);
+		nomeCarro = baseText[0].slice(5);
+		console.log(parcela);
+	})
+	
+
 	var storyImage;
 	var scale = 1;
 	var nomeCarro;
@@ -8,13 +25,14 @@ $( document ).ready(function() {
 	var entrada;
 	var parcela;
 	var selo;
-	var position = 1920/2.3;
+	var position = 1920/2.5;
 	var selo = new Image();
 
 	
 
 $('.selo').on('change', function(e){
 	selo.src = 'badges/'+$(this).data('selo')+'.png';
+	console.log(selo);
 })
 
 $('#criarStory').on('click', function(e){
@@ -28,12 +46,16 @@ $('#criarStory').on('click', function(e){
 	baseText = $('#fld-texto').val().split(/(?:\r?\n)+/);
 
 	var infos = baseText[2].split('$');
+	infos.forEach(function(item){console.log(item)})
 
 	entrada = '$'+String(parseInt(infos[1])).slice(0,1)+'.'+String(parseInt(infos[1])).slice(1)+',00';
 	parcela = parseInt(infos[2]);
 
 	anoCarro = baseText[0].slice(0,4);
 	nomeCarro = baseText[0].slice(5);
+
+	// entrada = '$'+$('#fld-entrada').val().slice(0,1)+'.'+$('#fld-entrada').val().slice(1)+',00';
+	// parcela = $('#fld-parcela').val();
 
 	$('#adStoryCanvas').addLayer({
 		
@@ -118,7 +140,7 @@ $('#criarStory').on('click', function(e){
 		type: 'image',
 		index:1,
 		source: 'StoryOverlayTop.png',
-		x: (1080/2), y: 250
+		x: (1080/2), y: 195
 	}).addLayer({
 		type: 'image',
 		index:1,
