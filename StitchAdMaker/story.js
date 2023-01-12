@@ -24,12 +24,11 @@ $('#criarStory').on('click', function(e){
 	$('#adStoryCanvas').clearCanvas();
 	$('#baixarImagem').removeClass('hidden');
 	$('#baixarImagem').on('click', function(e){
-		$(this).attr('download', nomeCarro);
+		$(this).attr('download', anoCarro+'_'+nomeCarro);
 		$(this).attr('href', $('#adStoryCanvas').getCanvasImage('png'));
 	})
 
 
-	//DESCOMENTAR
 	baseText = $('#fld-texto').val().split(/(?:\r?\n)+/);
 
 	var infos = baseText[2].split('$');

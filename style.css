@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: 'Source Sans Pro';
+}
+
+.hidden{
+	display: none;
+}
+
+body{
+	background: #0e0e0e;
+}
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.toolList{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tool{
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #070707;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    border-radius: 16px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.tool:hover{
+    background-color: #1c1c1a;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
