@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get Car Data Script</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="jcanvas.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script> -->
+	<script src="story.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	</style>
+
+
+	<!-- Gerador de Stories de Anúncios de carros -->
+	<section id="adStory">
+		<div class="wrap canvasWrap">
+			<canvas id="adStoryCanvas"
+				width="1080"
+				height="1080">
+			</canvas>
+		</div>
+		<div class="wrap controlsWrap">
+			<label for="fld-texto">Texto</label>
+			<textarea name="fld-texto" id="fld-texto"></textarea>
+
+			<label>Selo</label>
+			<div id="seloWrap">
+				<input type="radio" name="selo" id="selo01" data-selo='1' class="selo"><label for="selo01" id="seloLabel"><img src="badges/1.png" alt=""></label>
+				<input type="radio" name="selo" id="selo02" data-selo='2' class="selo"><label for="selo02" id="seloLabel"><img src="badges/2.png" alt=""></label>
+				<input type="radio" name="selo" id="selo03" data-selo='3' class="selo"><label for="selo03" id="seloLabel"><img src="badges/3.png" alt=""></label>
+				<input type="radio" name="selo" id="selo04" data-selo='4' class="selo"><label for="selo04" id="seloLabel"><img src="badges/4.png" alt=""></label>
+			</div>
+			<a class="btn" id="criarStory" href="#">Criar Anúncio</a>
+			<a class="btn hidden" id="baixarImagem" href="#" download="story.png">Baixar Imagem</a>
+		</div>
+	</section>
+</body>
+</html>
