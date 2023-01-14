@@ -22,6 +22,7 @@ $('#criarStory').on('click', function(e){
 	$('#adStoryCanvas').clearCanvas();
 	$('#baixarImagem').removeClass('hidden');
 	$('#baixarImagem').on('click', function(e){
+		$(this).attr('download', anoCarro+' '+nomeCarro);
 		$(this).attr('href', $('#adStoryCanvas').getCanvasImage('png'));
 	})
 
